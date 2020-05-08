@@ -11,7 +11,8 @@ import com.pengrad.telegrambot.TelegramBot;
 import com.pengrad.telegrambot.model.request.ParseMode;
 import com.pengrad.telegrambot.request.SendMessage;
 import com.pengrad.telegrambot.response.SendResponse;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -24,7 +25,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class BTTelegramClientJavaBotImpl implements BTTelegramClient {
 
-    private static final Logger logger = Logger.getLogger(BTTelegramClientJavaBotImpl.class);
+    private static final Logger logger = LoggerFactory.getLogger(BTTelegramClientJavaBotImpl.class);
     
     @Autowired
     private TelegramBot bot;

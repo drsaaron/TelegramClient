@@ -8,7 +8,8 @@ package com.blazartech.products.telegram.client.impl.javabot.config;
 import com.blazartech.products.crypto.BlazarCryptoFile;
 import com.pengrad.telegrambot.TelegramBot;
 import com.pengrad.telegrambot.TelegramBotAdapter;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -21,7 +22,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class TelegramBotConfig {
     
-    private static final Logger logger = Logger.getLogger(TelegramBotConfig.class);
+    private static final Logger logger = LoggerFactory.getLogger(TelegramBotConfig.class);
     
     @Value("${blazartech.telegram.client.userID}")
     private String userID; 
