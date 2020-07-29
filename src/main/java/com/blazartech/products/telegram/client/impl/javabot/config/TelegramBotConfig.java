@@ -7,7 +7,6 @@ package com.blazartech.products.telegram.client.impl.javabot.config;
 
 import com.blazartech.products.crypto.BlazarCryptoFile;
 import com.pengrad.telegrambot.TelegramBot;
-import com.pengrad.telegrambot.TelegramBotAdapter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,6 +37,6 @@ public class TelegramBotConfig {
         logger.info("configuring telegram client");
         
         String token = cryptoFile.getPassword(userID, resourceID);
-        return TelegramBotAdapter.build(token);
+        return new TelegramBot(token);
     }
 }
