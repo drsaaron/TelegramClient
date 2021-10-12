@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.blazartech</groupId>
     <artifactId>TelegramClient</artifactId>
-    <version>1.14-RELEASE</version>
+    <version>1.15-RELEASE</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,7 +30,7 @@
         <dependency>
             <groupId>com.blazartech</groupId>
             <artifactId>BlazarCryptoFile-mvn</artifactId>
-            <version>1.13-RELEASE</version>
+            <version>1.14-RELEASE</version>
         </dependency>
     </dependencies>
 </project>
