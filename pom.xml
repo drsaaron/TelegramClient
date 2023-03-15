@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.blazartech</groupId>
     <artifactId>TelegramClient</artifactId>
-    <version>1.33-RELEASE</version>
+    <version>1.34-RELEASE</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -36,7 +36,7 @@
         <dependency>
             <groupId>com.github.pengrad</groupId>
             <artifactId>java-telegram-bot-api</artifactId>
-            <version>6.3.0</version>
+            <version>6.5.0</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
