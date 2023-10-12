@@ -3,12 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.blazartech</groupId>
     <artifactId>TelegramClient</artifactId>
-    <version>1.43-RELEASE</version>
+    <version>1.44-RELEASE</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.release>21</maven.compiler.release>
     </properties>
     
     <parent>  
@@ -45,7 +44,7 @@
         <dependency>
             <groupId>com.blazartech</groupId>
             <artifactId>BlazarCryptoFile-mvn</artifactId>
-            <version>1.36-RELEASE</version>
+            <version>1.37-RELEASE</version>
         </dependency>
     </dependencies>
 </project>
