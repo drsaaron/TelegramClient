@@ -38,6 +38,11 @@ public class Message {
     public void setHtml(boolean html) {
         this.html = html;
     }
+
+    @Override
+    public String toString() {
+        return "Message{" + "chatID=" + chatID + ", text=" + text + ", html=" + html + '}';
+    }
     
     
 }
